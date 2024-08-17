@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(24, 24, 24);
+  color: #ffffff;
+
+  font-family: sans-serif;
+  animation: color 12s ease-in-out infinite;
+
+}
+
+@font-face {
+  font-family: 'NomeDaFonte';
+  src: url('C:\\xampp\\htdocs\\web\\fontes\\RetroGaming.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 90px;
+  font-family:'Lucida Console';
+}
+
+section {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  min-height: 100vh;
+  text-align: center; 
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(15px);
+  transition: all 5s;
+  transform: translateX(-100%);
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transition: all 2s;
+  transform: translateX(0);
+}
+
+.q1 {
+  background-color: rgb(182, 13, 13);
+  width: 30%; 
+  height: 400px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  box-shadow: 0 24px 82px #000000;
+  transition: 0.3s;
+  margin: 5%;
+  border-radius: 10%;
+  
+}
+.q1:hover{
+  width: 40%; 
+  height: 600px; 
+  transition: 0.5s;
+
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(168, 38, 38);
+}
+
+h1 {
+  font-size: 120px;
+  text-transform: uppercase;
+  font-family: 'Gambetta', serif;
+  letter-spacing: -3px;
+  transition: 700ms ease;
+  font-variation-settings: "wght" 311;
+  margin-bottom: 0.8rem;
+  color: rgb(202, 201, 193);
+  outline: none;
+  text-align: center;
+}
+
+h1:hover {
+  font-variation-settings: "wght" 582; 
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 150%;
+  text-align: center;
+  color: MintCream;
+  letter-spacing: .5px;
+}
+.back3{
+ 
+  border-bottom: 3px solid red;
+  border-top:3px solid red; ;
+}
